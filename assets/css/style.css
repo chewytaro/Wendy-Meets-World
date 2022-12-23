@@ -1,9 +1,12 @@
 :root {
     --blue:cornflowerblue; 
     --background: rgb(250, 239, 248);
-    --sectioncolor: lightpink;
+    --sectioncolor: rgb(245, 211, 216); 
     --textcolor: black;
+    --imageborderradius: 20%;
+    --imageborder: 10px solid rgb(250, 239, 248); 
 }
+
 
 body {
     font-family: 'Comic Sans MS', 'Comic Sans', cursive;
@@ -27,16 +30,87 @@ body {
     display: right;
 }
 
+h1, h2, h3 {
+    text-align: center;
+
+}
+
+a {
+    color: #ffffff;
+    text-decoration: wavy;
+    font-size: x-large;
+        
+}
+
 .section {
     background-color: var(--sectioncolor);
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    flex-direction: column;
+    
+}
+.image1 {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: var(--imageborderradius);
+    border: var(--imageborder)
+}
+
+.image2 {
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: var(--imageborderradius); 
+    border: var(--imageborder) 
+}
+
+
+.image3 {
+   display: flex; 
+   width: 40%;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   border-radius: var(--imageborderradius);
+   border: var(--imageborder)
+}
+
+.img4 {
+    display:flex;
+    width: 60%;
+    margin-bottom: 20px;
+    border-radius: var(--imageborderradius);
+    border: var(--imageborder);
+}
+
+
+
+
+p {
+    border-style: none;
+    size-adjust: auto;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 20px;
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
 
 
 .contact {
     color: var(--textcolor);
     display:block;
     text-align: center;
+    border-bottom: 50px;
 }
 
 
