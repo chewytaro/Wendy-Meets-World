@@ -1,0 +1,49 @@
+:root {
+    --blue:cornflowerblue; 
+    --background: rgb(250, 239, 248);
+    --sectioncolor: lightpink;
+    --textcolor: black;
+}
+
+body {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    background-color: var(--background);
+    margin: 0;
+    color: var(--textcolor);
+}
+
+.header {
+    display: block;
+    color: var(--textcolor);
+    text-align: center;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive; 
+    background-color: var(--sectioncolor);
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 70px;
+    display: right;
+}
+
+.section {
+    background-color: var(--sectioncolor);
+}
+
+
+
+.contact {
+    color: var(--textcolor);
+    display:block;
+    text-align: center;
+}
+
+
+.howtocontact {
+    color: var(--textcolor);
+    font-size: large;
+    margin-left: 50px;
+    list-style-type: '💖';
+    line-height: 50px;
+}
