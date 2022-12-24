@@ -36,7 +36,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: #ffffff;
+    color: black;
     text-decoration: wavy;
     font-size: x-large;
         
@@ -103,9 +103,28 @@ p {
     border: var(--imageborder);
 }
 
-.notice {
-    background-color: rgb(228, 164, 174);
+.img5 {
+    display:flex;
+    width: 100%;
     margin-bottom: 20px;
+    border-radius: var(--imageborderradius);
+    border: var(--imageborder);
+}
+
+.container2 {
+    display:flex;
+    flex: wrap;
+    margin: 20px;
+}
+
+#work2p {
+    display: block;
+    size-adjust: auto;
+    border-style: none;
+    position: relative;   
+    margin:auto;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
@@ -123,4 +142,5 @@ p {
     margin-left: 50px;
     list-style-type: '💖';
     line-height: 50px;
+    font-size: x-large;
 }
