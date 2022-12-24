@@ -113,7 +113,6 @@ p {
 
 .container2 {
     display:flex;
-    flex: wrap;
     margin: 20px;
 }
 
