@@ -113,7 +113,7 @@ p {
 
 .img6 {
     display: flex;
-    width: 195%; 
+    width: 100%; 
     margin-bottom: 20px;
     border-radius: var(--imageborderradius);
     border: var(--imageborder);
@@ -140,9 +140,8 @@ p {
     size-adjust: auto;
     border-style: none;
     position: relative;   
-    margin:auto;
-    margin-left: 330px;
-    margin-right: 20px;
+    margin: auto;
+    margin-left: 50px;
 }
 
 
